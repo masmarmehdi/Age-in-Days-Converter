@@ -16,7 +16,8 @@ function converter(){
 
 function reset(){
      let areYouSure=prompt("Are you sure you wanna reset the first item ? If you are sure please write \"yes\"");
+     
      if(areYouSure=="yes"){
         document.getElementById('converter').remove();
-     }
     }
+}
